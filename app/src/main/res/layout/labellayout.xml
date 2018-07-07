@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="?customBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Label"
+        android:layout_margin="10dp"
+        android:textColor="?textBack"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="15"
+        android:id="@+id/ed"
+        android:textColor="?textBack"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_marginRight="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dismiss"
+            android:text="Cancel"
+            android:background="?customBackground"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="?textBack"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm"
+            android:text="Ok"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="?customBackground"
+            android:textColor="?textBack"/>
+    </LinearLayout>
+
+</LinearLayout>

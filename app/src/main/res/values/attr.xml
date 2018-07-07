@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="customBackground" format="reference|color"/>
+    <attr name="textBack" format="reference|color"/>
+    <attr name="darkBack" format="reference|color"/>
+</resources>

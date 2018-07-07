@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/snackroot"
+    android:background="?customBackground"
+    android:gravity="center">
+
+    <com.bhargavms.dotloader.DotLoader
+        android:id="@+id/dot_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:color_array="@array/dot_colors"
+        android:layout_gravity="center"
+        app:dot_radius="10dp"
+        android:layout_marginTop="20dp"
+        app:number_of_dots="3"/>
+
+    <TextView
+        android:id="@+id/listen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/cagliostro"
+        android:gravity="center"
+        android:text="Listening..."
+        android:textColor="?textBack"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startRec"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/recording"
+            android:drawableTop="@drawable/record"
+            android:paddingTop="20dp"
+            android:text="Start"
+            android:textAllCaps="false"
+            android:textColor="?textBack" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/recording"
+            android:drawableTop="@drawable/ic_stop_black_24dp"
+            android:paddingTop="20dp"
+            android:text="Stop"
+            android:textAllCaps="false"
+            android:textColor="?textBack" />
+
+    </LinearLayout>
+
+</LinearLayout>

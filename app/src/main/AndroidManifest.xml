@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.orepheus.udbhav.alarmz">
+
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/alarm"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/alarm"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:showOnLockScreen="true"
+            android:theme="@style/DarkModeBlue">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <activity android:name=".Main2Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RecordingActivity"
+            android:screenOrientation="portrait"
+            android:label="Time to record">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

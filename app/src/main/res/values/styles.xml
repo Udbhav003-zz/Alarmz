@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="LightModeBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="darkBack">#f5f5f5</item>
+        <item name="textBack">#0f2027</item>
+        <item name="customBackground">#ffffff</item>
+
+    </style>
+
+    <style name="LightModeRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#f44336</item>
+        <item name="colorPrimaryDark">#d32f2f</item>
+        <item name="colorAccent">#f44336</item>
+        <item name="darkBack">#f5f5f5</item>
+        <item name="textBack">#0f2027</item>
+        <item name="customBackground">#ffffff</item>
+
+    </style>
+
+    <style name="LightModePink" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#e91e63</item>
+        <item name="colorPrimaryDark">#c2185b</item>
+        <item name="colorAccent">#e91e63</item>
+        <item name="darkBack">#f5f5f5</item>
+        <item name="textBack">#0f2027</item>
+        <item name="customBackground">#ffffff</item>
+
+    </style>
+
+    <style name="LightModeGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#4caf50</item>
+        <item name="colorPrimaryDark">#388e3c</item>
+        <item name="colorAccent">#4caf50</item>
+        <item name="darkBack">#f5f5f5</item>
+        <item name="textBack">#0f2027</item>
+        <item name="customBackground">#ffffff</item>
+
+    </style>
+
+    <style name="LightModeOrange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#ff9800</item>
+        <item name="colorPrimaryDark">#f57c00</item>
+        <item name="colorAccent">#ff9800</item>
+        <item name="darkBack">#f5f5f5</item>
+        <item name="textBack">#0f2027</item>
+        <item name="customBackground">#ffffff</item>
+
+    </style>
+
+    <style name="DarkModeBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="darkBack">#424242</item>
+        <item name="textBack">#fafafa</item>
+        <item name="customBackground">#303030</item>
+
+    </style>
+
+    <style name="DarkModeRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#f44336</item>
+        <item name="colorPrimaryDark">#d32f2f</item>
+        <item name="colorAccent">#f44336</item>
+        <item name="darkBack">#424242</item>
+        <item name="textBack">#fafafa</item>
+        <item name="customBackground">#303030</item>
+
+    </style>
+
+    <style name="DarkModePink" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#e91e63</item>
+        <item name="colorPrimaryDark">#c2185b</item>
+        <item name="colorAccent">#e91e63</item>
+        <item name="darkBack">#424242</item>
+        <item name="textBack">#fafafa</item>
+        <item name="customBackground">#303030</item>
+
+    </style>
+
+    <style name="DarkModeGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#4caf50</item>
+        <item name="colorPrimaryDark">#388e3c</item>
+        <item name="colorAccent">#4caf50</item>
+        <item name="darkBack">#424242</item>
+        <item name="textBack">#fafafa</item>
+        <item name="customBackground">#303030</item>
+
+    </style>
+
+    <style name="DarkModeOrange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#ff9800</item>
+        <item name="colorPrimaryDark">#f57c00</item>
+        <item name="colorAccent">#ff9800</item>
+        <item name="darkBack">#424242</item>
+        <item name="textBack">#fafafa</item>
+        <item name="customBackground">#303030</item>
+
+    </style>
+
+
+
+
+
+</resources>
